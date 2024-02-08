@@ -36,4 +36,5 @@ def process_packet(packet):
             print('\n\n[+] Possible Credential Information -> {}'.format(cred), '\n\n')
             
 interface = get_args()
+
 sniffer(interface)
